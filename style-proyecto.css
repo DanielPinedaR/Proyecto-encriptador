@@ -1,0 +1,98 @@
+/*PrincipalView*/
+*{
+    background-color: #F3F5FC;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logo{
+    width: 10%;
+    margin: 40px 0 0 60px;
+}
+main{
+    display: flex;
+    width: 940px;
+    margin: auto
+}
+.section_1{
+    width: 70%;
+}
+.section_2{
+    width: 30%;
+    position: relative;
+}
+.texto{
+    width: 99%;
+    height: 500px;
+    vertical-align: top;
+}
+.texto-resuelto{
+    width: 100%;
+    height: 500px;
+    display: none;
+}
+.texto-no-encontrado{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+img{
+    width: 80%;
+}
+p{
+    line-height: 1.0;
+}
+.p1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.p2{
+    font-size: 16px;
+    color: rgb(94, 91, 91);
+}
+.indicacion{
+    font-size: 15px;
+}
+.indicacion iconify-icon{
+    font-size: 15px;
+}
+
+.encriptar{
+    font-size: 16px;
+    background-color: #0A3871;
+    color: azure;
+    border: 1px solid #0A3871;
+    padding: 10px 50px 10px 50px;
+    border-radius: 14px;
+    width: 30%;
+}
+
+.desencriptar{
+    font-size: 16px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    padding: 10px 50px 10px 50px;
+    border-radius: 14px;
+    width: 30%;
+}
+.copiar{
+    font-size: 16px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    padding: 10px 50px 10px 50px;
+    border-radius: 14px;
+    position: absolute;
+    bottom: 0;
+    display: none;
+    width: 70%;
+    
+}
